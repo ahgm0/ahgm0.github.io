@@ -1,0 +1,25 @@
+body{
+    background-color: #1a183e;
+    overflow: hidden;
+}
+.like{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font: 20;
+}
+
+@keyframes move{
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }10%{
+        opacity: 1;
+    }90%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+        transform: translateY(50vh);
+    }
+}
